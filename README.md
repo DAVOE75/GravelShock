@@ -1,7 +1,7 @@
 # GravelShock
 
 <p align="center">
-  <img src="assets/logo.png" width="150" alt="GravelShock Logo">
+  <img src="assets/logo.png" width="300" alt="GravelShock Logo">
 </p>
 
 [🇪🇸 Español](#español) | [🇬🇧 English](#english)
