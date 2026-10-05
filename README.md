@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="assets/logo.png" width="300" alt="GravelShock Logo">
+  <img src="assets/screenshot.jpg" width="200" alt="GravelShock en acción" style="margin-left: 20px;">
 </p>
 
 [🇪🇸 Español](#español) | [🇬🇧 English](#english)
