@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/black"
+    android:padding="8dp">
+
+    <!-- Número del terreno (1, 2, 3, 4) -->
+    <TextView
+        android:id="@+id/terrain_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:text="1" />
+
+    <!-- Nombre del terreno -->
+    <TextView
+        android:id="@+id/terrain_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#AAAAAA"
+        android:textStyle="bold"
+        android:text="Asfalto Liso"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Barra de progreso generada dinámicamente como Bitmap -->
+    <ImageView
+        android:id="@+id/terrain_bar"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Leyenda de los porcentajes -->
+    <TextView
+        android:id="@+id/terrain_percentages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:text="AL: 0% Grv: 0% Ado: 0% MTB: 0%" />
+
+</LinearLayout>

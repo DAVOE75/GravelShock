@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/black"
+    android:padding="8dp">
+
+    <!-- Espaciador superior para empujar el contenido hacia el centro -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" />
+
+    <!-- Texto principal grande sin el número redundante -->
+    <TextView
+        android:id="@+id/terrain_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AAAAAA"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="Asfalto Liso"
+        android:textAlignment="center" />
+
+    <!-- Espaciador para empujar los porcentajes al fondo -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" />
+
+    <!-- Fila de porcentajes colorida y espaciada -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="4">
+        
+        <TextView
+            android:id="@+id/pct_smooth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AL: 0%"
+            android:textColor="#4CAF50"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+            
+        <TextView
+            android:id="@+id/pct_gravel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Grv: 0%"
+            android:textColor="#FFC107"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+            
+        <TextView
+            android:id="@+id/pct_cobbles"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ado: 0%"
+            android:textColor="#FF9800"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+            
+        <TextView
+            android:id="@+id/pct_mtb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MTB: 0%"
+            android:textColor="#F44336"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>

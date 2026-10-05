@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionInfo
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="gravelshock"
+    displayName="@string/app_name"
+    icon="@drawable/ic_icon">
+
+    <DataType
+        typeId="gravelshock_terrain"
+        displayName="@string/terrain_type"
+        description="@string/terrain_description"
+        graphical="true" />
+        
+    <DataType
+        typeId="gravelshock_fatigue"
+        displayName="@string/fatigue_type"
+        description="@string/fatigue_description"
+        graphical="true" />
+
+</ExtensionInfo>

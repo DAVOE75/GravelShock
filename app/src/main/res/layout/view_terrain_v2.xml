@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/terrain_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/terrain_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AAAAAA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Smooth" />
+
+    <TextView
+        android:id="@+id/terrain_percentages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:text="AL:0% Grv:0% Ado:0% MTB:0%" />
+
+</LinearLayout>

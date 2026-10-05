@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GravelShock</string>
+    <string name="terrain_type">TIPO TERRENO</string>
+    <string name="terrain_description">Clasificación del terreno</string>
+    <string name="fatigue_type">FATIGA (G)</string>
+    <string name="fatigue_description">Acumulación de fatiga por impactos G.</string>
+</resources>
