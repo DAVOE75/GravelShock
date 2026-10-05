@@ -33,6 +33,19 @@ Ideal para ciclistas de Gravel, MTB o carretera que quieran monitorizar por dón
    adb install GravelShock-release.apk
    ```
 
+### 🤝 Créditos y Agradecimientos
+* Construido sobre el SDK oficial [karoo-ext](https://github.com/hammerheadnav/karoo-ext) de Hammerhead (Licencia Apache 2.0).
+* Inspirado por la comunidad open-source de modding para Karoo (como la mítica extensión *Ki2* o *Climber+*).
+* Desarrollado por **David García Pascual**.
+
+### 📄 Licencia y Descargo de Responsabilidad
+Este proyecto de código abierto se distribuye bajo la licencia **MIT** - Copyright 2026 David García Pascual. *Descargo de responsabilidad: Esta extensión no está afiliada, respaldada, patrocinada ni soportada por Hammerhead o SRAM. Úsala bajo tu propio riesgo y, por favor, mantén siempre los ojos en la carretera y las manos en el manillar.*
+
+### ☕ Apoya el proyecto
+Si esta extensión te ha resultado útil y quieres apoyar su continuo desarrollo:
+
+<a href="https://www.buymeacoffee.com/DAVOE75" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+
 ---
 
 <a name="english"></a>
@@ -58,6 +71,19 @@ Perfect for Gravel, MTB, or Road cyclists who want to track the type of terrain 
    ```bash
    adb install GravelShock-release.apk
    ```
+
+### 🤝 Credits and Acknowledgments
+* Built on the official Hammerhead [karoo-ext](https://github.com/hammerheadnav/karoo-ext) SDK (Apache 2.0 License).
+* Inspired by the open-source modding community for Karoo (like the legendary *Ki2* or *Climber+* extensions).
+* Developed by **David García Pascual**.
+
+### 📄 License and Disclaimer
+This open-source project is distributed under the **MIT** license - Copyright 2026 David García Pascual. *Disclaimer: This extension is not affiliated with, endorsed, sponsored, or supported by Hammerhead or SRAM. Use it at your own risk and please always keep your eyes on the road and your hands on the handlebars.*
+
+### ☕ Support the project
+If you found this extension useful and want to support its continuous development:
+
+<a href="https://www.buymeacoffee.com/DAVOE75" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
 ---
 *Designed for Karoo 3 (SDK 35).*
