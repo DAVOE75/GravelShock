@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="assets/logo.png" width="300" alt="GravelShock Logo">
-  <img src="assets/screenshot.jpg" width="200" alt="GravelShock en acción" style="margin-left: 20px;">
 </p>
 
 [🇪🇸 Español](#español) | [🇬🇧 English](#english)
@@ -15,6 +14,10 @@
 **GravelShock** es una extensión para dispositivos **Karoo (Hammerhead)** que analiza y clasifica la rugosidad del terreno en tiempo real mediante el acelerómetro integrado del ciclocomputador. 
 
 Ideal para ciclistas de Gravel, MTB o carretera que quieran monitorizar por dónde están rodando y cómo afecta el terreno a la bicicleta.
+
+<p align="center">
+  <img src="assets/screenshot.jpg" width="200" alt="GravelShock en acción">
+</p>
 
 ### Características (v0.0.5)
 
@@ -54,6 +57,10 @@ Si esta extensión te ha resultado útil y quieres apoyar su continuo desarrollo
 **GravelShock** is an extension for **Karoo (Hammerhead)** devices that analyzes and classifies terrain roughness in real-time using the bike computer's built-in accelerometer.
 
 Perfect for Gravel, MTB, or Road cyclists who want to track the type of terrain they are riding on and how it impacts their bike.
+
+<p align="center">
+  <img src="assets/screenshot.jpg" width="200" alt="GravelShock in action">
+</p>
 
 ### Features (v0.0.5)
 
