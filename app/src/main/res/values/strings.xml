@@ -1,7 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GravelShock</string>
-    <string name="terrain_type">TIPO TERRENO</string>
-    <string name="terrain_description">Clasificación del terreno</string>
-    <string name="fatigue_type">FATIGA (G)</string>
-    <string name="fatigue_description">Acumulación de fatiga por impactos G.</string>
+    <string name="terrain_type">TERRAIN TYPE</string>
+    <string name="terrain_description">Terrain roughness classification</string>
+    <string name="fatigue_type">FATIGUE (G)</string>
+    <string name="fatigue_description">Fatigue accumulation from G impacts.</string>
+    <string name="terrain_smooth">Smooth Tarmac</string>
+    <string name="terrain_gravel">Gravel</string>
+    <string name="terrain_cobbles">Cobbles</string>
+    <string name="terrain_mtb">MTB / Rough</string>
+    <string name="terrain_unknown">Unknown</string>
+    <string name="terrain_percentages">T: %1$d%% | Grv: %2$d%% | Cb: %3$d%% | M: %4$d%%</string>
 </resources>

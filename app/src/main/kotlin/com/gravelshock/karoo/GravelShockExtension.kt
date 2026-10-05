@@ -129,11 +129,11 @@ class GravelShockExtension : KarooExtension("gravelshock", "0.0.5"), SensorEvent
     
     private fun getTerrainName(terrain: Double): String {
         return when (terrain) {
-            1.0 -> "Asfalto Liso"
-            2.0 -> "Gravel"
-            3.0 -> "Adoquines"
-            4.0 -> "MTB / Roto"
-            else -> "Desconocido"
+            1.0 -> applicationContext.getString(R.string.terrain_smooth)
+            2.0 -> applicationContext.getString(R.string.terrain_gravel)
+            3.0 -> applicationContext.getString(R.string.terrain_cobbles)
+            4.0 -> applicationContext.getString(R.string.terrain_mtb)
+            else -> applicationContext.getString(R.string.terrain_unknown)
         }
     }
     
@@ -170,7 +170,7 @@ class GravelShockExtension : KarooExtension("gravelshock", "0.0.5"), SensorEvent
                 val p3 = (countCobbles * 100) / total
                 val p4 = (countMTB * 100) / total
                 
-                val percentText = "AL: $p1% | Grv: $p2% | Ado: $p3% | MTB: $p4%"
+                val percentText = applicationContext.getString(R.string.terrain_percentages, p1, p2, p3, p4)
                 views.setTextViewText(R.id.terrain_percentages, percentText)
                 
                 // Generar bitmap de la barra
